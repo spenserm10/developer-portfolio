@@ -61,6 +61,7 @@ nav {
     border-right: 8px solid #E59866;
     font-weight: bold;
     border-radius: 25px;
+    box-shadow: 0 0 5px #E59866, 0 0 20px #E59866, 0 0 40px #E59866;
 }
 
 .navButton {
@@ -73,6 +74,7 @@ nav {
     border-right: 8px solid #E59866;
     font-weight: bold;
     border-radius: 25px;
+    box-shadow: 0 0 5px #E59866, 0 0 20px #E59866, 0 0 40px #E59866;
 }
 
 .box a:hover {
@@ -80,6 +82,7 @@ nav {
     border: 5px solid #F7DC6F;
     border-left: 8px solid #F7DC6F;
     border-right: 8px solid #F7DC6F;
+    box-shadow: 0 0 5px #F7DC6F, 0 0 20px #F7DC6F, 0 0 40px #F7DC6F;
 }
 
 #active {
@@ -87,6 +90,7 @@ nav {
     border: 5px solid #EC7063;
     border-left: 8px solid #EC7063;
     border-right: 8px solid #EC7063;
+    box-shadow: 0 0 5px #EC7063, 0 0 20px #EC7063, 0 0 40px #EC7063;
     
 }
 
@@ -96,6 +100,9 @@ nav {
     margin-right: 15px;
     background-color: #E59866;
     border: 3px solid #E59866;
+    box-shadow: 0 0 5px #E59866, 0 0 20px #E59866, 0 0 40px #E59866;
+    border-left: 8px solid #E59866;
+    border-right: 8px solid #E59866;
     font-weight: bold;
     border-radius: 15px;
 }
@@ -103,6 +110,8 @@ nav {
 .boxSub a:hover {
     background-color: #F7DC6F;
     border: 3px solid #F7DC6F;
+    border-left: 8px solid #F7DC6F;
+    border-right: 8px solid #F7DC6F;
 }
 
 /* Start of Dropdown Menu Stuff */
@@ -196,3 +205,25 @@ ol{
   border-spacing: 15px 5px;
 }
 
+/* This is the "Back to the top" button. */
+
+.box2 {
+	text-align-last: center;
+	margin-top: 25px;
+}
+
+.box2 a {
+	color: #000000;
+	background: #15f4ee;
+	box-shadow: 0 0 5px #15f4ee, 0 0 20px #15f4ee, 0 0 40px #15f4ee;
+	text-decoration: none;
+	border: 5px solid #15f4ee;
+	font-weight: bold;
+}
+
+.box2 a:hover {
+	color: #000000;
+	background: #39ff14;
+	box-shadow: 0 0 5px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
+	border: 5px solid #39ff14;
+}
